@@ -17,11 +17,7 @@ const men=document.querySelector('#Mood')
 pen.addEventListener('click', function(){
 men.classList.toggle('hidden')
 bu.classList.toggle('hidden')
-if (bu='hidden'){
-  wadah.classList.add('dark')
-}else{
-  wadah.classList.remove('dark')
-}
+wadah.classList.toggle('dark')
 })
 
 // pilihan

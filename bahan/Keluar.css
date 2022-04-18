@@ -539,9 +539,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .my-2 {
@@ -552,6 +552,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .my-64 {
@@ -572,21 +577,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-96 {
   margin-top: 24rem;
   margin-bottom: 24rem;
-}
-
-.my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
 }
 
 .block {
@@ -731,9 +721,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
-.text-tiga {
+.text-lima {
   --tw-text-opacity: 1;
-  color: rgb(154 148 131 / var(--tw-text-opacity));
+  color: rgb(43 41 33 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -744,6 +734,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-dua {
   --tw-text-opacity: 1;
   color: rgb(208 201 180 / var(--tw-text-opacity));
+}
+
+.text-empat {
+  --tw-text-opacity: 1;
+  color: rgb(173 168 155 / var(--tw-text-opacity));
+}
+
+.text-tiga {
+  --tw-text-opacity: 1;
+  color: rgb(154 148 131 / var(--tw-text-opacity));
+}
+
+.text-lime-50 {
+  --tw-text-opacity: 1;
+  color: rgb(247 254 231 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -775,6 +780,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(216 213 194 / var(--tw-bg-opacity));
   padding: 0.5rem;
   opacity: 0.7;
+}
+
+.dark .beku {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 201 180 / var(--tw-bg-opacity));
+}
+
+.beku{
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   box-shadow: 0 0 -1px rgba(0, 0, 0, 0.5);
@@ -801,9 +814,93 @@ ubah {
   background-color: rgb(216 213 194 / var(--tw-bg-opacity));
 }
 
-.hover\:text-tiga:hover {
+.hover\:text-ellipsis:hover {
+  text-overflow: ellipsis;
+}
+
+.hover\:bg-lima:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 41 33 / var(--tw-bg-opacity));
+}
+
+.hover\:text-lima:hover {
   --tw-text-opacity: 1;
-  color: rgb(154 148 131 / var(--tw-text-opacity));
+  color: rgb(43 41 33 / var(--tw-text-opacity));
+}
+
+.hover\:text-empat:hover {
+  --tw-text-opacity: 1;
+  color: rgb(173 168 155 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-satu:hover {
+  --tw-text-opacity: 1;
+  color: rgb(216 213 194 / var(--tw-text-opacity));
+}
+
+.dark .dark\:bg-lima {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 41 33 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-dua {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 201 180 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-tiga {
+  --tw-bg-opacity: 1;
+  background-color: rgb(154 148 131 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:text-satu {
+  --tw-text-opacity: 1;
+  color: rgb(216 213 194 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-dua {
+  --tw-text-opacity: 1;
+  color: rgb(208 201 180 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-empat {
+  --tw-text-opacity: 1;
+  color: rgb(173 168 155 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-lima {
+  --tw-text-opacity: 1;
+  color: rgb(43 41 33 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:bg-tiga:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(154 148 131 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:hover\:text-satu:hover {
+  --tw-text-opacity: 1;
+  color: rgb(216 213 194 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:text-lima:hover {
+  --tw-text-opacity: 1;
+  color: rgb(43 41 33 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {

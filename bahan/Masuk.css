@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 .beku{
-    @apply fixed z-50 bg-satu opacity-70 p-2;
+    @apply fixed z-50 bg-satu opacity-70 p-2 dark:bg-dua;
     backdrop-filter: blur(5px);
     box-shadow: 0 0 -1px rgba(0, 0, 0, 0.5);
+    
 }
 .nyala>span:nth-child(1){
     @apply  rotate-45
