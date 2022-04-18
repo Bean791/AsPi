@@ -9,6 +9,21 @@ window.onscroll=function(){
       awal.classList.remove('beku');
     }
   }
+// kedua
+const wadah=document.querySelector('html');
+const pen=document.querySelector('#tam');
+const bu=document.querySelector('#mata');
+const men=document.querySelector('#Mood')
+pen.addEventListener('click', function(){
+men.classList.toggle('hidden')
+bu.classList.toggle('hidden')
+if (bu='hidden'){
+  wadah.classList.add('dark')
+}else{
+  wadah.classList.remove('dark')
+}
+})
+
 // pilihan
 const navnya=document.querySelector('#Menuku');
 const a=document.querySelector("#pilihan");

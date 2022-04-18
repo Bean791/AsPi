@@ -16,3 +16,6 @@
 .nyala>span:nth-child(3){
     @apply -rotate-45
 }
+ubah{
+    @apply bg-satu
+}
