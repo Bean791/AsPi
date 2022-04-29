@@ -1,14 +1,14 @@
 // navbarnya
-// window.onscroll=function(){
-//     const awal=document.querySelector('header');
-//     const yakin= awal.offsetTop
-//     if (window.pageYOffset>yakin){
-//       awal.classList.add('beku');
-//     }else
-//     {
-//       awal.classList.remove('beku');
-//     }
-//   }
+window.onscroll=function(){
+    const awal=document.querySelector('.navig');
+    const yakin= awal.offsetTop
+    if (window.pageYOffset>yakin){
+      awal.classList.add('beku');
+    }else
+    {
+      awal.classList.remove('beku');
+    }
+  }
 // kedua
 const wadah=document.querySelector('html');
 const pen=document.querySelector('#tam');
