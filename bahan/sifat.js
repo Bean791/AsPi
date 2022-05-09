@@ -74,22 +74,22 @@ web1.classList.toggle('hidden')
 
 // nanti
 var tes=window.location.href;
-if (tes=="http://127.0.0.1:3000/Kontri.html#aldwin"){
+if (tes=="https://bean791.github.io/DOC/Kontri.html#aldwin"){
   const aldwin=document.querySelector('#aldwin');
   aldwin.classList.toggle('hidden')
-}if (tes=="http://127.0.0.1:3000/Kontri.html#alex"){
+}if (tes=="https://bean791.github.io/DOC/Kontri.html#alex"){
   const alex=document.querySelector('#alex');
   alex.classList.toggle('hidden')
-}if (tes=="http://127.0.0.1:3000/Kontri.html#ethelind"){
+}if (tes=="https://bean791.github.io/DOC/Kontri.html#ethelind"){
   const ethelind=document.querySelector('#ethelind');
   ethelind.classList.toggle('hidden')
-}if (tes=="http://127.0.0.1:3000/Kontri.html#rdavid"){
+}if (tes=="https://bean791.github.io/DOC/Kontri.html#rdavid"){
   const rdavid=document.querySelector('#rdavid');
   rdavid.classList.toggle('hidden')
-}if (tes=="http://127.0.0.1:3000/Kontri.html#robin"){
+}if (tes=="https://bean791.github.io/DOC/Kontri.html#robin"){
   const robin=document.querySelector('#robin');
   robin.classList.toggle('hidden')
-}if(tes=="http://127.0.0.1:3000/Kontri.html#serafina"){
+}if(tes=="https://bean791.github.io/DOC/Kontri.html#serafina"){
   const serafina=document.querySelector('#serafina');
   serafina.classList.toggle('hidden')
 }
