@@ -93,3 +93,42 @@ if (tes=="https://bean791.github.io/DOC/Kontri.html#aldwin"){
   const serafina=document.querySelector('#serafina');
   serafina.classList.toggle('hidden')
 }
+
+
+
+// navigasi aldwin
+const nav=document.querySelector('#a1');
+const nama1=document.querySelector('#aldwin');
+nav.addEventListener('click',function(){
+nama1.classList.toggle('hidden');
+})
+// navigasi alex
+const nav1=document.querySelector('#a2');
+const nama2=document.querySelector('#alex');
+nav1.addEventListener('click',function(){
+nama2.classList.toggle('hidden');
+})
+// navigasi ethelind
+const nav2=document.querySelector('#e1');
+const nama3=document.querySelector('#ethelind');
+nav2.addEventListener('click',function(){
+nama3.classList.toggle('hidden');
+})
+// navigasi rdavid
+const nav3=document.querySelector('#r1');
+const nama4=document.querySelector('#rdavid');
+nav3.addEventListener('click',function(){
+nama4.classList.toggle('hidden');
+})
+// navigasi robin
+const nav4=document.querySelector('#r2');
+const nama5=document.querySelector('#robin');
+nav4.addEventListener('click',function(){
+nama5.classList.toggle('hidden');
+})
+// navigasi serafina
+const nav5=document.querySelector('#s1');
+const nama6=document.querySelector('#serafina');
+nav5.addEventListener('click',function(){
+nama6.classList.toggle('hidden');
+})
