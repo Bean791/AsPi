@@ -27,3 +27,10 @@ a.addEventListener('click',function(){
 a.classList.toggle('nyala')
 navnya.classList.toggle('hidden')
 })
+
+// desain tampilan
+const destam=document.querySelector('#desain_tampilan');
+const tamdes=document.querySelector('#destam');
+destam.addEventListener('click',function(){
+tamdes.classList.toggle('hidden')
+})
