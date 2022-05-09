@@ -73,8 +73,23 @@ web1.classList.toggle('hidden')
 
 
 // nanti
-// var tes=window.location.href;
-// if (tes=="http://127.0.0.1:3000/Kontri.html#ethelind"){
-//   const pro1=document.querySelector('#pro1');
-//   pro1.classList.toggle('hidden')
-// }
+var tes=window.location.href;
+if (tes=="http://127.0.0.1:3000/Kontri.html#aldwin"){
+  const aldwin=document.querySelector('#aldwin');
+  aldwin.classList.toggle('hidden')
+}if (tes=="http://127.0.0.1:3000/Kontri.html#alex"){
+  const alex=document.querySelector('#alex');
+  alex.classList.toggle('hidden')
+}if (tes=="http://127.0.0.1:3000/Kontri.html#ethelind"){
+  const ethelind=document.querySelector('#ethelind');
+  ethelind.classList.toggle('hidden')
+}if (tes=="http://127.0.0.1:3000/Kontri.html#rdavid"){
+  const rdavid=document.querySelector('#rdavid');
+  rdavid.classList.toggle('hidden')
+}if (tes=="http://127.0.0.1:3000/Kontri.html#robin"){
+  const robin=document.querySelector('#robin');
+  robin.classList.toggle('hidden')
+}if(tes=="http://127.0.0.1:3000/Kontri.html#serafina"){
+  const serafina=document.querySelector('#serafina');
+  serafina.classList.toggle('hidden')
+}
