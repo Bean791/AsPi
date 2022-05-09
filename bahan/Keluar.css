@@ -844,6 +844,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.75rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
+.p-40 {
+  padding: 10rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1197,6 +1205,10 @@ ubah {
 
   .lg\:gap-4 {
     gap: 1rem;
+  }
+
+  .lg\:gap-12 {
+    gap: 3rem;
   }
 
   .lg\:bg-transparent {

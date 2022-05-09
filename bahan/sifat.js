@@ -34,3 +34,9 @@ const tamdes=document.querySelector('#destam');
 destam.addEventListener('click',function(){
 tamdes.classList.toggle('hidden')
 })
+// Event 1
+const event1=document.querySelector('#event1');
+const ev1=document.querySelector('#ev1');
+event1.addEventListener('click',function(){
+ev1.classList.toggle('hidden')
+})
