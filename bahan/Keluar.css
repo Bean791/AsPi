@@ -760,6 +760,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 3rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -1094,6 +1102,11 @@ ubah {
   background-color: rgb(208 201 180 / var(--tw-bg-opacity));
 }
 
+.dark .dark\:bg-empat {
+  --tw-bg-opacity: 1;
+  background-color: rgb(173 168 155 / var(--tw-bg-opacity));
+}
+
 .dark .dark\:text-satu {
   --tw-text-opacity: 1;
   color: rgb(216 213 194 / var(--tw-text-opacity));
@@ -1122,6 +1135,11 @@ ubah {
 .dark .dark\:hover\:bg-lima:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(43 41 33 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:hover\:bg-empat:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(173 168 155 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:hover\:text-satu:hover {

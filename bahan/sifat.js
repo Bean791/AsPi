@@ -40,3 +40,29 @@ const ev1=document.querySelector('#ev1');
 event1.addEventListener('click',function(){
 ev1.classList.toggle('hidden')
 })
+// proposal
+const pro=document.querySelector('#pro');
+const pro1=document.querySelector('#pro1');
+pro.addEventListener('click',function(){
+pro1.classList.toggle('hidden')
+})
+// doc
+const doc=document.querySelector('#doc');
+const doc1=document.querySelector('#doc1');
+doc.addEventListener('click',function(){
+doc1.classList.toggle('hidden')
+})
+// doc
+const ftr=document.querySelector('#ftr');
+const ftr1=document.querySelector('#ftr1');
+ftr.addEventListener('click',function(){
+ftr1.classList.toggle('hidden')
+})
+
+
+// nanti
+// var tes=window.location.href;
+// if (tes=="http://127.0.0.1:3000/Kontri.html#ethelind"){
+//   const pro1=document.querySelector('#pro1');
+//   pro1.classList.toggle('hidden')
+// }
