@@ -9,6 +9,7 @@ window.onscroll=function(){
       awal.classList.remove('beku');
     }
   }
+
 // kedua
 const wadah=document.querySelector('html');
 const pen=document.querySelector('#tam');
@@ -34,29 +35,40 @@ const tamdes=document.querySelector('#destam');
 destam.addEventListener('click',function(){
 tamdes.classList.toggle('hidden')
 })
+
 // Event 1
 const event1=document.querySelector('#event1');
 const ev1=document.querySelector('#ev1');
 event1.addEventListener('click',function(){
 ev1.classList.toggle('hidden')
 })
+
 // proposal
 const pro=document.querySelector('#pro');
 const pro1=document.querySelector('#pro1');
 pro.addEventListener('click',function(){
 pro1.classList.toggle('hidden')
 })
+
 // doc
 const doc=document.querySelector('#doc');
 const doc1=document.querySelector('#doc1');
 doc.addEventListener('click',function(){
 doc1.classList.toggle('hidden')
 })
-// doc
+
+// fitur
 const ftr=document.querySelector('#ftr');
 const ftr1=document.querySelector('#ftr1');
 ftr.addEventListener('click',function(){
 ftr1.classList.toggle('hidden')
+})
+
+// web
+const web=document.querySelector('#web');
+const web1=document.querySelector('#web1');
+web.addEventListener('click',function(){
+web1.classList.toggle('hidden')
 })
 
 
