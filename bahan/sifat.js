@@ -74,22 +74,22 @@ web1.classList.toggle('hidden')
 
 // nanti
 var tes=window.location.href;
-if (tes=="https://bean791.github.io/DOC/Kontri.html#aldwin"){
+if (tes=="https://bean791.github.io/AsPi/Kontri.html#aldwin"){
   const aldwin=document.querySelector('#aldwin');
   aldwin.classList.toggle('hidden')
-}if (tes=="https://bean791.github.io/DOC/Kontri.html#alex"){
+}if (tes=="https://bean791.github.io/AsPi/Kontri.html#alex"){
   const alex=document.querySelector('#alex');
   alex.classList.toggle('hidden')
-}if (tes=="https://bean791.github.io/DOC/Kontri.html#ethelind"){
+}if (tes=="https://bean791.github.io/AsPi/Kontri.html#ethelind"){
   const ethelind=document.querySelector('#ethelind');
   ethelind.classList.toggle('hidden')
-}if (tes=="https://bean791.github.io/DOC/Kontri.html#rdavid"){
+}if (tes=="https://bean791.github.io/AsPi/Kontri.html#rdavid"){
   const rdavid=document.querySelector('#rdavid');
   rdavid.classList.toggle('hidden')
-}if (tes=="https://bean791.github.io/DOC/Kontri.html#robin"){
+}if (tes=="https://bean791.github.io/AsPi/Kontri.html#robin"){
   const robin=document.querySelector('#robin');
   robin.classList.toggle('hidden')
-}if(tes=="https://bean791.github.io/DOC/Kontri.html#serafina"){
+}if(tes=="https://bean791.github.io/AsPi/Kontri.html#serafina"){
   const serafina=document.querySelector('#serafina');
   serafina.classList.toggle('hidden')
 }
