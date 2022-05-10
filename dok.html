@@ -5,7 +5,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <title>Dokumentasi</title>
 </head>
-<body>
-    
+<body class="bg-satu dark:bg-lima">
+        <!-- awal -->
+        <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-20 py-2 navig">
+            <div class="container mx-10">
+              <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                  <a href="https://bean791.github.io/AsPi/index.html" class="font-bold text-lg text-lima dark:text-satu">AsPi</a>
+                </div>
+                <div class="flex items-center px-4">
+                  <button id="pilihan" class="block absolute right-1 lg:hidden">
+                    <span class="w-[30px] h-[2px] bg-black my-2 block transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="w-[30px] h-[2px] bg-gray-700 my-2 block transition duration-300 ease-in-out"></span>
+                    <span class="w-[30px] h-[2px] bg-gray-500 my-2 block transition duration-300 ease-in-out origin-top-left"></span>
+                  </button>
+                  <nav id="Menuku" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent max-w-full lg:shadow-none">
+                    <ul class="block lg:flex">
+                      <li>
+                        <a href="#aldwin" class="text-sm text-tiga py-2 mx-8 dark:hover:text-satu hover:text-black font-bold" id="a1">Aldwin</a>
+                        <a href="#alex" class="text-sm text-tiga py-2 mx-8 dark:hover:text-satu hover:text-black font-bold" id="a2">Alexander</a>
+                        <a href="#ethelind" class="text-sm text-tiga py-2 mx-8 dark:hover:text-satu hover:text-black font-bold" id="e1">Ethelind</a>
+                        <a href="#rdavid" class="text-sm text-tiga py-2 mx-8 dark:hover:text-satu hover:text-black font-bold" id="r1">RDavid</a>
+                        <a href="#robin" class="text-sm text-tiga py-2 mx-8 dark:hover:text-satu hover:text-black font-bold" id="r2">Robin</a>
+                        <a href="#serafina" class="text-sm text-tiga py-2 mx-8 dark:hover:text-satu hover:text-black font-bold" id="s1">Serafina</a>
+                        <button id="tam" class="my-0 text-center">
+                          <span id="Mood" class="hidden px-7 py-2 dark:bg-lima rounded-lg dark:text-empat dark:hover:text-satu"><i class="fa-solid fa-sun"></i></span>
+                          <span id="mata"><i class="fa-solid fa-moon px-7 py-2 bg-satu rounded-lg hover:text-lima text-tiga"></i></span>
+                        </button>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+        </header>
+        <!-- akhir -->
+        <!-- awal -->
+        <main>
+            <section>
+                <label class="relative block mt-64 rounded-xl ">
+                    <span class="sr-only">Cari</span>
+                    <span class="absolute inset-y-1 left-0 flex items-center pl-2">
+                        <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                    </span>
+                    <input class="placeholder:italic placeholder:text-slate-400 block bg-white w-96 border border-slate-500 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Masukan Nama Fitur Yang Ingin Di Cari" type="text" name="search"/>
+                </label>
+            </section>
+        </main>
+    <script src="bahan/sifat.js"></script>
 </body>
 </html>
