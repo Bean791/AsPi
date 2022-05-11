@@ -92,7 +92,9 @@ if (tes=="https://bean791.github.io/AsPi/Kontri.html#aldwin"){
 }if(tes=="https://bean791.github.io/AsPi/Kontri.html#serafina"){
   const serafina=document.querySelector('#serafina');
   serafina.classList.toggle('hidden')
-}
+}if (tes=="https://bean791.github.io/AsPi/dok.html#tes"){
+  const tes=document.querySelector('#tes');
+  tes.classList.toggle('hidden')
 
 
 
@@ -131,11 +133,4 @@ const nav5=document.querySelector('#s1');
 const nama6=document.querySelector('#serafina');
 nav5.addEventListener('click',function(){
 nama6.classList.toggle('hidden');
-})
-// doc
-const Cari=document.getElementById('Cari').value;
-const kon=document.querySelector('#kon');
-//run when kon is clicked
-kon.addEventListener('click',function(){
-  console.log("HEYYY")
 })
