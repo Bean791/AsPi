@@ -132,3 +132,10 @@ const nama6=document.querySelector('#serafina');
 nav5.addEventListener('click',function(){
 nama6.classList.toggle('hidden');
 })
+// doc
+const Cari=document.getElementById('Cari').value;
+const kon=document.querySelector('#kon');
+//run when kon is clicked
+kon.addEventListener('click',function(){
+  console.log("HEYYY")
+})
