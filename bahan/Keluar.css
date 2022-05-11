@@ -662,6 +662,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 24rem;
 }
 
+.mx-28 {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.my-80 {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+.my-56 {
+  margin-top: 14rem;
+  margin-bottom: 14rem;
+}
+
 .mt-32 {
   margin-top: 8rem;
 }
@@ -822,6 +837,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.grid-rows-6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
 }
 
 .content-center {
@@ -1140,6 +1159,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .italic {
   font-style: italic;
 }
@@ -1357,6 +1380,15 @@ ubah {
   --tw-ring-color: rgb(43 41 33 / var(--tw-ring-opacity));
 }
 
+.dark .dark\:border {
+  border-width: 1px;
+}
+
+.dark .dark\:border-satu {
+  --tw-border-opacity: 1;
+  border-color: rgb(216 213 194 / var(--tw-border-opacity));
+}
+
 .dark .dark\:bg-lima {
   --tw-bg-opacity: 1;
   background-color: rgb(43 41 33 / var(--tw-bg-opacity));
@@ -1382,6 +1414,11 @@ ubah {
   background-color: rgb(208 201 180 / var(--tw-bg-opacity));
 }
 
+.dark .dark\:bg-emerald-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 253 245 / var(--tw-bg-opacity));
+}
+
 .dark .dark\:text-satu {
   --tw-text-opacity: 1;
   color: rgb(216 213 194 / var(--tw-text-opacity));
@@ -1400,6 +1437,32 @@ ubah {
 .dark .dark\:text-tiga {
   --tw-text-opacity: 1;
   color: rgb(154 148 131 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-lima {
+  --tw-text-opacity: 1;
+  color: rgb(43 41 33 / var(--tw-text-opacity));
+}
+
+.dark .dark\:ring {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.dark .dark\:placeholder\:text-satu::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(216 213 194 / var(--tw-text-opacity));
+}
+
+.dark .dark\:placeholder\:text-satu:-ms-input-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(216 213 194 / var(--tw-text-opacity));
+}
+
+.dark .dark\:placeholder\:text-satu::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(216 213 194 / var(--tw-text-opacity));
 }
 
 .dark .dark\:hover\:bg-tiga:hover {
@@ -1430,6 +1493,17 @@ ubah {
 .dark .dark\:hover\:text-lima:hover {
   --tw-text-opacity: 1;
   color: rgb(43 41 33 / var(--tw-text-opacity));
+}
+
+.dark .dark\:focus\:ring:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.dark .dark\:focus\:ring-satu:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(216 213 194 / var(--tw-ring-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1499,6 +1573,14 @@ ubah {
 
   .lg\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:gap-6 {

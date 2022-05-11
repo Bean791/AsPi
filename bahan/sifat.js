@@ -119,3 +119,5 @@ const nama6=document.querySelector('#serafina');
 nav5.addEventListener('click',function(){
 nama6.classList.toggle('hidden');
 })
+
+
