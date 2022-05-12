@@ -22,68 +22,89 @@ const b1=document.querySelector('#b1');
 const b2=document.querySelector('#b2');
 const b3=document.querySelector('#b3');
 const b4=document.querySelector('#b4');
+const utama=document.querySelector('#utama');
 if (asem=="http://127.0.0.1:3000/dok.html#semua"){
 semua.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#awal"){
 semua.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#login"){
 semua.classList.toggle('hidden')
 a2.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#daftar"){
 semua.classList.toggle('hidden')
 a1.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#configurasi"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#username%20configurasi"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b2.classList.toggle('hidden')
 b3.classList.toggle('hidden')
 b4.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#background"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
 b3.classList.toggle('hidden')
 b4.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#foreground"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
 b3.classList.toggle('hidden')
 b4.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#background%20foreground"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
 b3.classList.toggle('hidden')
 b4.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#cek%20masker"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
 b2.classList.toggle('hidden')
 b4.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#cek%20ultha%20jenis%20fonts"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
 b2.classList.toggle('hidden')
 b3.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#cek%20ultha"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
 b2.classList.toggle('hidden')
 b3.classList.toggle('hidden')
+utama.classList.toggle('hidden')
 }else if (asem=="http://127.0.0.1:3000/dok.html#jenis%20fonts"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
 b2.classList.toggle('hidden')
 b3.classList.toggle('hidden')
-}
+utama.classList.toggle('hidden')
+}// }else if (asem=="http://127.0.0.1:3000/dok.html#utama"){
+// semua.classList.toggle('hidden')
+// awal.classList.toggle('hidden')
+// configurasi.classList.toggle('hidden')
+// }else if (asem=="http://127.0.0.1:3000/dok.html#halaman%20utama"){
+// semua.classList.toggle('hidden')
+// awal.classList.toggle('hidden')
+// configurasi.classList.toggle('hidden')
+// }
