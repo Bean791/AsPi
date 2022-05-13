@@ -44,31 +44,31 @@ const c17=document.querySelector('#c17');
 const c18=document.querySelector('#c18');
 const c19=document.querySelector('#c19');
 const c20=document.querySelector('#c20');
-if (asem=="http://127.0.0.1:3000/dok.html#semua"){
+if (asem=="https://bean791.github.io/AsPi/dok.html#semua"){
 semua.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#awal"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#awal"){
 semua.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#login"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#login"){
 semua.classList.toggle('hidden')
 a2.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#daftar"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#daftar"){
 semua.classList.toggle('hidden')
 a1.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#configurasi"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#configurasi"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#username%20configurasi"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#username%20configurasi"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b2.classList.toggle('hidden')
@@ -76,7 +76,7 @@ b3.classList.toggle('hidden')
 b4.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#background"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#background"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
@@ -84,7 +84,7 @@ b3.classList.toggle('hidden')
 b4.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#foreground"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#foreground"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
@@ -92,7 +92,7 @@ b3.classList.toggle('hidden')
 b4.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#background%20foreground"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#background%20foreground"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
@@ -100,7 +100,7 @@ b3.classList.toggle('hidden')
 b4.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#cek%20masker"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#cek%20masker"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
@@ -108,22 +108,14 @@ b2.classList.toggle('hidden')
 b4.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#cek%20ultha%20jenis%20fonts"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#cek%20ultha%20jenis%20fonts"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
 b2.classList.toggle('hidden')
 b3.classList.toggle('hidden')
 utama.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#cek%20ultha"){
-semua.classList.toggle('hidden')
-awal.classList.toggle('hidden')
-b1.classList.toggle('hidden')
-b2.classList.toggle('hidden')
-b3.classList.toggle('hidden')
-utama.classList.toggle('hidden')
-fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#jenis%20fonts"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#cek%20ultha"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 b1.classList.toggle('hidden')
@@ -131,22 +123,30 @@ b2.classList.toggle('hidden')
 b3.classList.toggle('hidden')
 utama.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#utama"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#jenis%20fonts"){
+semua.classList.toggle('hidden')
+awal.classList.toggle('hidden')
+b1.classList.toggle('hidden')
+b2.classList.toggle('hidden')
+b3.classList.toggle('hidden')
+utama.classList.toggle('hidden')
+fitur.classList.toggle('hidden')
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#utama"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#halaman%20utama"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#halaman%20utama"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
 fitur.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#fitur"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#fitur"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
 utama.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#kalkulator"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#kalkulator"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -170,7 +170,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#ai"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#ai"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -194,7 +194,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#neko"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#neko"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -218,7 +218,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#youtube%20dowloader"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#youtube%20dowloader"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -242,7 +242,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#film"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#film"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -266,7 +266,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#filter%20gambar"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#filter%20gambar"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -290,7 +290,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#pengaturan%20akun"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#pengaturan%20akun"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -314,7 +314,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#biografi"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#biografi"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -338,7 +338,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#chatting"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#chatting"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -362,7 +362,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#file%20explorer"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#file%20explorer"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -386,7 +386,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#google"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#google"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -410,7 +410,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#web"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#web"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -434,7 +434,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#sos"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#sos"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -458,7 +458,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#editing"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#editing"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -482,7 +482,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#scanner"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#scanner"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -506,7 +506,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#keberuntungan"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#keberuntungan"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -530,7 +530,7 @@ c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#notes"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#notes"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -554,7 +554,7 @@ c16.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#alkitab"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#alkitab"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -578,7 +578,7 @@ c16.classList.toggle('hidden')
 c17.classList.toggle('hidden')
 c19.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#link%20shorten"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#link%20shorten"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
@@ -602,7 +602,7 @@ c16.classList.toggle('hidden')
 c17.classList.toggle('hidden')
 c18.classList.toggle('hidden')
 c20.classList.toggle('hidden')
-}else if (asem=="http://127.0.0.1:3000/dok.html#grooming%20hewan"){
+}else if (asem=="https://bean791.github.io/AsPi/dok.html#grooming%20hewan"){
 semua.classList.toggle('hidden')
 awal.classList.toggle('hidden')
 configurasi.classList.toggle('hidden')
