@@ -68,6 +68,12 @@ const evend=document.querySelector('#ev2');
 eventd.addEventListener('click',function(){
 evend.classList.toggle('hidden')
 })
+// EVENT 3
+const eventv=document.querySelector('#evenv');
+const evenv=document.querySelector('#ev3');
+eventv.addEventListener('click',function(){
+evenv.classList.toggle('hidden')
+})
 // nanti
 var tes=window.location.href;
 if (tes=="https://bean791.github.io/AsPi/Kontri.html#aldwin"){
