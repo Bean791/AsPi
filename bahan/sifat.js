@@ -74,6 +74,12 @@ const evenv=document.querySelector('#ev3');
 eventv.addEventListener('click',function(){
 evenv.classList.toggle('hidden')
 })
+// EVENT 3
+const bug=document.querySelector('#bug');
+const bug1=document.querySelector('#bug1');
+bug.addEventListener('click',function(){
+bug1.classList.toggle('hidden')
+})
 // nanti
 var tes=window.location.href;
 if (tes=="https://bean791.github.io/AsPi/Kontri.html#aldwin"){
@@ -94,6 +100,9 @@ robin.classList.toggle('hidden')
 }if(tes=="https://bean791.github.io/AsPi/Kontri.html#serafina"){
 const serafina=document.querySelector('#serafina');
 serafina.classList.toggle('hidden')
+}if(tes=="https://bean791.github.io/AsPi/Kontri.html#john"){
+const john=document.querySelector('#john');
+john.classList.toggle('hidden')
 }
 // navigasi aldwin
 const nav=document.querySelector('#a1');
@@ -130,6 +139,12 @@ const nav5=document.querySelector('#s1');
 const nama6=document.querySelector('#serafina');
 nav5.addEventListener('click',function(){
 nama6.classList.toggle('hidden');
+})
+// navigasi serafina
+const nav6=document.querySelector('#j1');
+const nama7=document.querySelector('#john');
+nav6.addEventListener('click',function(){
+nama7.classList.toggle('hidden');
 })
 
 
