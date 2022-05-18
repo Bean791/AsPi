@@ -80,6 +80,7 @@ const bug1=document.querySelector('#bug1');
 bug.addEventListener('click',function(){
 bug1.classList.toggle('hidden')
 })
+
 // nanti
 var tes=window.location.href;
 if (tes=="https://bean791.github.io/AsPi/Kontri.html#aldwin"){
