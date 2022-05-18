@@ -1,6 +1,6 @@
 
 module.exports = {
-  content: ['index.html','Kontri.html','dok.html'],
+  content: ['index.html','Kontri.html','dok.html','demo.html'],
   darkMode: 'class',
   theme: {
     extend: {

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bahan/Keluar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Vidio Dokumentasi</title>
+</head>
+<body class="bg-satu dark:bg-lima">
+    <!-- Narbar -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-20 py-2 ">
+        <div class="container mx-10">
+          <div class="flex items-center justify-between relative">
+            <div class="px-4">
+              <a href="#" class="font-bold text-lg text-lima dark:text-satu">AsPi</a>
+            </div>
+            <div class="flex items-center px-4">
+              <button id="pilihan" class="block absolute right-4 lg:hidden">
+                <span class="w-[30px] h-[2px] bg-black my-2 block transition duration-300 ease-in-out origin-top-left"></span>
+                <span class="w-[30px] h-[2px] bg-gray-700 my-2 block transition duration-300 ease-in-out"></span>
+                <span class="w-[30px] h-[2px] bg-gray-500 my-2 block transition duration-300 ease-in-out origin-top-left"></span>
+              </button>
+              <nav id="Menuku" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent max-w-full lg:shadow-none">
+                <ul class="block lg:flex m-5">
+                  <li>
+                    <button id="tam" class="my-0 text-center"> 
+                      <span id="Mood" class="hidden px-7 py-2 dark:bg-lima rounded-lg dark:text-empat dark:hover:text-satu"><i class="fa-solid fa-sun"></i></span>
+                      <span id="mata"><i class="fa-solid fa-moon px-7 py-2 bg-satu rounded-lg hover:text-lima text-tiga"></i></span>
+                    </button>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!-- Akhir -->
+    <section id="demo" >
+        <div class="hidden">
+            <h1 class="lg:text-6xl text-4xl font-serif mt-80 text-center">Video Demo</h1>
+            <div class="mt-14 grid lg:grid-rows-1 grid-rows-2 grid-flow-col lg:gap-6 gap-12 justify-center">
+                <div class="text-center my-5 ">
+                    <a href="#rdavid" class=" transition duration-500 ease-in-out bg-tiga py-5 px-14 lg:py-7 lg:px-16 rounded-2xl hover:bg-lima hover:text-satu font-bold dark:bg-tiga dark:text-satu dark:hover:bg-satu dark:hover:text-lima my-10">R David</a>
+                </div>
+                <div class="text-center my-5 ">
+                    <a href="#serafina" class=" transition duration-500 ease-in-out bg-tiga py-5 px-14 lg:py-7 lg:px-16 rounded-2xl hover:bg-lima hover:text-satu font-bold dark:bg-tiga dark:text-satu dark:hover:bg-satu dark:hover:text-lima my-10">Serafina</a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-52 mx-10 lg:mx-28 mb-36 hidden" id="serafina">
+            <video controls width="1080">
+                <source src="gambar/demo.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="mt-52 mx-10 lg:mx-28 mb-36 hidden" id="rdavid">
+            <video controls width="1080">
+                <source src="gambar/demo1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+
+    </section>
+    <script src="bahan/sifat.js"></script>
+</body>
+</html>
