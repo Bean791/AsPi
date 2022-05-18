@@ -1412,10 +1412,6 @@ ubah {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
 
-  .lg\:grid-rows-6 {
-    grid-template-rows: repeat(6, minmax(0, 1fr));
-  }
-
   .lg\:grid-rows-3 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
